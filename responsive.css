@@ -1,0 +1,54 @@
+@media only screen and (max-width: 770px){
+    .using-section input{
+        margin: 10px auto;
+    }
+    
+    
+}
+
+
+@media only screen and (max-width: 500px){
+    
+    .footer-section{
+        background: white;
+    }
+    
+    .footer-section .fix-hight{
+        margin: 30px auto;
+        display: block;
+        width: 250px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .mini-size{
+        width: 50%;
+        border: none;
+        outline: none;
+        margin: 0px auto;
+        padding-left: 10%;
+    }
+    
+    
+    .platform-section {
+        background: white;
+    }
+    
+    .platform-section h5{
+        text-align: center;
+    }
+    
+    .desing-section {
+        background: white;
+    }
+    
+    .desing-section h5{
+        text-align: center;
+    }
+    
+    h5{
+        color: #ff8a8a;
+    }
+    
+    
+}

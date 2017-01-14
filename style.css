@@ -1,0 +1,318 @@
+*{
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,li,img{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: gold;
+}
+
+p{
+    font-family: 'Frank Ruhl Libre', sans-serif;
+    font-size: 18px;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+h5{
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    color: gray;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.fix{
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+#inputsm {
+}
+
+#inputsm {
+}
+
+#inputsm {
+}
+
+#inputsm {
+}
+
+.slider-section {
+    padding-top: 130px;
+    padding-bottom: 150px;
+    background: url("home-bg.jpg");
+    background-size: 100% 150%;
+    background-position: 80% 70%;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.slider-section h1.text-center{
+    color: #272727;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+
+.slider-section img {
+    width: auto;
+    height: auto;
+}
+
+.slider-section #rd-button {
+    width: 150px;
+    height: 40px;
+    background: #ff6c6c;
+    padding: 10px 30px;
+    font-size: 15px;
+    color: #d3c7c7;
+    margin: 30px auto 10px;
+}
+
+
+.platform-section {
+    background: url("service-bg.png");
+    background-size: 50% 105%;
+    background-repeat: no-repeat;
+    background-position: 100% 40%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.platform-section img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+
+.feature-section {
+    padding-top: 150px;
+    padding-bottom: 120px;
+    background: url("feature-bg.jpg") center/100% 100%;
+}
+
+.feature-section h2{
+    margin-bottom: 50px;
+}
+
+
+.feature-section p{
+    margin: 10px auto;
+    line-height: 22px;
+}
+
+.feature-section .image-center{
+    width: 50px;
+    height: 50px;
+    margin: 10px auto;
+}
+
+
+.desing-section {
+    padding-top: 90px;
+    padding-bottom: 80px;
+    background: url("responsive-bg.png") no-repeat;
+}
+
+.desing-section h5{
+    margin-top: 30px;
+}
+
+.desing-section p{
+    margin-bottom: 30px;
+}
+
+
+.macbook-image {
+}
+
+.comment-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url("members-bg.jpg");
+    color: white;
+    height: auto;
+}
+
+.comment-section .image-center{
+    margin: 30px auto;
+    width: 80px;
+    height: 80px;
+}
+
+.comment-section img{
+    width: auto;
+    height: auto;
+}
+
+.comment-section .logo{
+    margin: 80px auto 10px;
+}
+
+.comment-section .logo img{
+    width: 100%;
+}
+
+.browser-section {
+    padding-top: 100px;
+}
+
+.browser-section h5{
+    color: #fe6e6e;
+}
+
+.browser-section h2{
+    color: initial;
+}
+
+.browser-section p.text-center{
+    width: 80%;
+    margin: 0px auto 50px;
+}
+
+.using-section {
+    background: #323968;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+.using-section h5{
+    color: #eb676c;
+}
+
+.using-section h2{
+    color: white;
+}
+
+.using-section #arrow{
+    width: auto;
+    height: 50px;
+}
+
+.using-section p{
+    color: white;
+}
+
+.using-section p#condition{
+    color: white;
+    margin-top: 40px;
+}
+
+.red-button {
+    background: #ff6c6c;
+    max-width: 100%;
+    max-height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    
+}
+
+
+.footer-section {
+    padding-top: 50px;
+    padding-bottom: 40px;
+    background: url("footer-bg.png") 100% 110%/40% 180% no-repeat;
+}
+
+.footer-section h4{
+    display: inline-block;
+}
+
+.footer-section h4+img{
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
+.footer-section input {
+    display: inline-block;
+    width: 80%;
+    outline: none;
+}
+
+.footer-section input:focus {
+    -webkit-outline: none;
+    box-shadow: none;
+}
+
+.footer-section span img {
+    display: inline-block;
+    width: 20%;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+    height: 51px;
+    border: none;
+    outline: none;
+}
+
+#inpt-with-icon{
+    position: relative;
+}
+
+.footer-section input,span,a,span a img{
+    display: inline-block;
+}
+
+.social-link {
+    width: 80%;
+    margin: 20px auto 5px;
+}
+
+
+/*
+.footer-section h4.txtcntr{
+    text-align: center;
+    margin: 20px auto;
+*/
+
+/*
+.fix-hight{
+    height: 50px;
+}*/
